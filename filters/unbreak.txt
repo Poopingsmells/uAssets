@@ -1302,36 +1302,7 @@ clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifeh
 @@||authorityhacker.com/wp-content/*/plugins/duracelltomi-google-tag-manager/*$script,1p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/di9zaq/ublock_origin_breaking_page_but_not_blocking/
-@@||parse.ly/page-data/help/api/analytics/$xhr,1p
-
-! https://www.reddit.com/r/uBlockOrigin/comments/diaoj6/comments_no_longer_loading_on_masslivecom/f3umxm9/?context=8&depth=9
-@@||viafoura.co^$domain=masslive.com
-
-! https://github.com/gorhill/uBO-Extra/issues/119#issuecomment-543469244
-*/videoplayback?expire$media,redirect=noopmp3-0.1s,domain=webmd.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/6456
-@@||googletagmanager.com/gtm.js$script,domain=eclipse.org
-
-! https://www.reddit.com/r/uBlockOrigin/comments/dktx86/weather_radar_not_showing_up_on_website/
-@@||modules-prod.franklyinc.com/cml.js$script,domain=newson6.com
-
-! https://news.ycombinator.com/item?id=21325661
-arstechnica.com#@#a[href^="https://www.amazon."][href*="tag="]
-
-! https://github.com/NanoMeow/QuickReports/issues/2114
-@@||webticketing2.cinestar.de/app/scripts/provider/GoogleTagManager.js$script,1p
-
-! https://github.com/uBlockOrigin/uAssets/issues/6474
-@@||analytics.analytics-egain.com/onetag/$script,domain=xfinity.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/6480
-||pushengage.com^$badfilter
-
-! https://github.com/easylist/easylist/issues/4185
-! https://github.com/uBlockOrigin/uAssets/issues/8616
-*/dw-tracking$script,important,redirect=noopjs,domain=techrepublic.com
-||adtech.redventures.io/lib/*/bidbarrel-techrepublic-$script,important,redirect=noop.js,domain=techrepublic.com|zdnet.com
+@@||parse.ly/page-data/help/api/analytics/$xhr,bytechrepublic-$script,important,redirect=noop.js,domain=techrepublic.com|zdnet.com
 
 ! https://github.com/easylist/easylist/issues/4203
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=player.earthtv.com
@@ -1358,13 +1329,16 @@ los40.com##[class^="advertising"]
 los40.com##iframe[id^="google_ads_iframe"]:style(max-height: 1px !important;)
 los40.com##div[id^="google_ads_iframe_"]:style(max-height: 1px !important;)
 los40.com##.amp-animate:remove()
-los40.com##.estirar.envoltorio_publi
+los40.com##.estirar.envoltorio_publiWhy do golfers wear two pairs of pants?
+In case they get a hole in one.
 los40.com##.publi_luto_horizontal:style(max-height: 1px !important;)
 los40.com##.publi_luto_vertical
 los40.com##.cont_webpush
-los40.com###adunit
+los40.com###adunitFUNNY CLEAN JOKE
+A doctor gets a crazy idea on how to make more money. So he puts a sign in front of his clinic. The sign reads, if I can cure you, I get $20. If I can't cure you, I pay you $100. A lawyer decides that it's his time to shine, so goes to the doctor and says....
 ! https://los40.com/los40/2020/11/20/videos/1605885399_459822.html - video broken when pausing
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.comAn old man is met by his attorney, and is told he is going to be audited. He rides to the IRS office with his attorney, and when he gets there, he begins to talk with the IRS agent. "I
+bet $2,000 I can bite my own...A boy was told by a classmate that most adults are hiding at least one dark secret. He decides to go home and try it out. He goes home, and as he is greeted by his mother he says, "I know...
 ! https://www.reddit.com/r/uBlockOrigin/comments/14anfyg/
 los40.com##+js(set, DTM.trackAsyncPV, noopFunc)
 los40.com##+js(no-fetch-if, googlesyndication)
